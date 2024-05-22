@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #BFBFBD,#F2F2F2);
+
+}
+#título{
+    text-align: center;
+    font-style: italic; font-weight: 800;font-size: 6em;  font-family: 'Rubik', sans-serif;
+    color: #73706C;
+}
+.sub-título{
+   
+    font-style: normal; font-weight: 600; font-size: 3em; font-family: 'Bebas Neue', sans-serif;
+    color: #73706C;
+    
+}
+.parágrafo{
+    font-style: normal; font-weight: 400; font-size: 1em; font-family: 'Rubik', sans-serif;
+    color: #0D0D0D;   
+}
+.tópicos{
+    font-style: normal; font-weight: 400; font-size: 1em; font-family: 'Rubik', sans-serif;
+    color: #0D0D0D;   
+}
+div:hover{
+    color: #73706C;
+}
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    color: #F2F2F2;
+    background-color: #0D0D0D;
+}
+

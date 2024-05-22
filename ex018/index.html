@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+        a:visited{
+            color: brown;
+        }
+        a:hover{
+            color: aqua;
+           text-decoration: underline;
+           
+        }
+        a:active{
+            color: azure;
+        }
+        a::after{
+            content:' [link]';
+            text-decoration: none;
+            color: rgb(25, 63, 50);
+        }
+
+    </style>
+</head>
+<body>
+    <h2>links personalizados</h2>
+    <ul>
+        
+            <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
+        
+        
+            <li> <a href="https://ge.globo.com/" target="_blank">globo esporte</a></li>
+       
+            <li> <a href="https://www.foxsports.com/" target="_blank">fox esporte</a></li>
+    </ul>
+</body>
+</html>
