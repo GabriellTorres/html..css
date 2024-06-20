@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+header{
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    margin: -10px -10px -10px -10px;
+}
+.titulos{
+    color: white;
+    text-align: center;
+}
+.p001{
+    color: white;
+    text-align: center;
+}
+.p001 a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    
+}
