@@ -10,20 +10,17 @@
         }
         table{
             width: 300px;
-            height: 300px;
+            height: 100px;
             border-collapse: collapse;
         }
-        td{
+        td, th{
             border: 1px black solid;
             padding: 10px;
-            text-align: left;
-            vertical-align: top;
+            text-align: center;
+            vertical-align: middle;
         }
-        .linha1{
-            background-color: aqua;
-        }
-        .diferent{
-            background-color: aqua;
+        thead, tfoot{
+            background-color: darkgray;
         }
     </style>
 </head>
@@ -31,32 +28,27 @@
     <h1>Minha primeira Tabelinha</h1>
 
     <table>
-        <tr class="linha1">
-            <td>A1</td>
-            <td>A2</td>
-            <td>A3</td>
-        </tr>
-        <tr>
-            <td>A4</td>
-            <td class="diferent">A5</td>
-            <td>A6</td>
-        </tr>
-        <tr>
-            <td>A7</td>
-            <td>A8</td>
-            <td class="diferent">A9</td>
-        </tr><tr>
-            <td>A10</td>
-            <td>A11</td>
-            <td>A12</td>
-        </tr>
-        <tr>
-            <td>A13</td>
-            <td>A15</td>
-        </tr>
-        <tr>
-            <td>FIM!</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>estado</th>
+                <th>populção</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A1</td>
+                <td>A2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>A4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>FIM!</th>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
