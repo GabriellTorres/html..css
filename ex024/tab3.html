@@ -6,10 +6,13 @@
     <title>Tab3</title>
     <style>
         table{
-            width: 400px;
             border-collapse: collapse;
         }
-        td{
+        caption{
+            text-align: center;
+            font-weight: bold;
+        }
+        td, th{
             border: 1px black solid;
             text-align: center;
             padding: 10px 10px 10px 10px;
@@ -20,8 +23,8 @@
     </style>
 </head>
 <body>
-    <caption>Tabela de Filmes</caption>
     <table>
+        <caption>Tabela de Filmes</caption>
         <thead class="cor">
             <tr>
                 <td>Sexo</td>
@@ -31,7 +34,7 @@
         </thead>
         <tbody>
             <tr>
-                <td rowspan="3">Mulheres</td>
+                <th rowspan="3">Mulheres</th>
                 <td>Ana Maria</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -50,7 +53,7 @@
                 <td>As Marvels</td>
             </tr>
             <tr>
-                <td rowspan="3">Homens</td>
+                <th rowspan="3">Homens</th>
                 <td>Gabriel</td>
                 <td>Planeta dos Macacos</td>
                 <td>Batman</td>

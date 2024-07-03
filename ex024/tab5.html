@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab 5</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px black solid;
+            padding: 8px;
+            text-align: center;
+        }
+        .verde{
+            background-color: rgb(13, 247, 13);
+        }
+        .azul{
+            background-color: aqua;
+        }
+        .amarelo{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="verde">
+            <col class="azul">
+            <col span="2" class="amarelo">
+        </colgroup>
+        <tr>
+            <th>aaa</th>
+            <th>bbb</th>
+            <th colspan="2">ccc</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+    </table>
+</body>
+</html>
