@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Desafio</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário Aleatório de Estudo</h1>
+        <p>Feito por <a href="#">Gabriel Aparicio Torres</a></p>
+    </header>
+    <main>
+        <h2>Preencha os campos abaixo</h2>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <div class="forms">
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" size="20" placeholder="Nome do Usuário" autocomplete="on" required>
+                <label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome" size="20" placeholder="Sobrenome" autocomplete="on" required>
+            </div>
+
+            <div class="forms">
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" size="58" placeholder="Email" autocomplete="on" required>
+            </div>
+
+            <div class="forms">
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="telefone" id="itelefone" size="20" placeholder="Telefone" autocomplete="on" required>
+                <label for="isenha">Senha::</label>
+                <input type="senha" name="senha" id="isenha" size="20" placeholder="Senha" autocomplete="on" required>
+            </div>
+
+            <div class="forms">
+                <label for="inasc">Data de Nascimento:</label>
+                <input type="date" name="nasc" id="nasc" size="20" placeholder="Data de Nascimento" autocomplete="on" required>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
