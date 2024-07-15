@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="inum">Numero 1:</label>
+            <input type="number" name="numr1" id="inum1" min="0" max="50" required
+            oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+
+        <p>
+            <label for="inum">Numero 2:</label>
+            <input type="number" name="numr2" id="inum2" min="0" max="50" required
+            oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Result:</label>
+            <output name="result" id="isoma">0</output>
+        </p>
+
+        <p>
+            <label for="iqual">Satisfação</label>
+            <input type="range" name="qual" id="iqual" min="1" max="5" value="3" required
+            oninput="inu.innerHTML = Number(iqual.value)">
+            <output id="inu">3</output>
+        </p>
+
+            
+
+    </form>
+</body>
+</html>
