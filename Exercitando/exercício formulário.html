@@ -13,28 +13,28 @@
     </header>
     <main>
         <h2>Preencha os campos abaixo</h2>
-        <form action="cadastro.php" method="post" autocomplete="on">
+        <form class="formularioGeral" action="cadastro.php" method="post" autocomplete="on">
             <div class="forms">
-                <label for="inome">Nome:</label>
+                <label for="inome"></label>
                 <input type="text" name="nome" id="inome" size="20" placeholder="Nome do Usuário" autocomplete="on" required>
-                <label for="isobrenome">Sobrenome:</label>
+                <label for="isobrenome"></label>
                 <input type="text" name="sobrenome" id="isobrenome" size="20" placeholder="Sobrenome" autocomplete="on" required>
             </div>
 
             <div class="forms">
-                <label for="iemail">Email:</label>
+                <label for="iemail"></label>
                 <input type="email" name="email" id="iemail" size="58" placeholder="Email" autocomplete="on" required>
             </div>
 
             <div class="forms">
-                <label for="itel">Telefone:</label>
-                <input type="tel" name="telefone" id="itelefone" size="20" placeholder="Telefone" autocomplete="on" required>
-                <label for="isenha">Senha::</label>
-                <input type="senha" name="senha" id="isenha" size="20" placeholder="Senha" autocomplete="on" required>
+                <label for="itel"></label>
+                <input type="tel" pattern="\(\d{2}\)\d{5}-\d{4}" name="telefone" id="itelefone" size="20" placeholder="Telefone" autocomplete="on" required>
+                <label for="isenha"></label>
+                <input type="password" name="senha" id="isenha" size="20" placeholder="Senha" maxlength="12" minlength="8" autocomplete="on" required>
             </div>
 
             <div class="forms">
-                <label for="inasc">Data de Nascimento:</label>
+                <label for="inasc"></label>
                 <input type="date" name="nasc" id="nasc" size="20" placeholder="Data de Nascimento" autocomplete="on" required>
                 <input type="submit" value="Enviar">
             </div>
