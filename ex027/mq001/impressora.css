@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article{
+    line-height: 30px;
+    font-size: 1.2em;
+}
+menu{
+    display: none;
+}
