@@ -2,7 +2,12 @@
 
 /*impressão*/
 @media print{
-
+    #tv { display: none;}
+    #pc { display: none;}
+    #tablet{ display: none;}
+    #print { display: block;}
+    #phone { display: none;}
+    
 }
 @media screen and (max-width: 800px){
     body{
