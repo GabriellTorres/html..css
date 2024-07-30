@@ -20,7 +20,20 @@
                 <p>Faça o seu cadastro para aceesar a conta e reslizar atividades nela</p>
 
                 <form action="cadatro.php" method="post">
-
+                    <div class="campo">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="mail" id="iemail" placeholder="Seu email" maxlength="30" required>
+                        <label for="iemail">Senha</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" minlength="8" maxlength="12" required>
+                        <label for="isenha">Login</label>
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <a href="#">
+                        Esqueci a senha
+                    </a>
                 </form>
             </div>
         </section>
