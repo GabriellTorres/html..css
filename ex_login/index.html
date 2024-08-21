@@ -4,19 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media_queries.css">
     <title>Tela de Loguin</title>
 </head>
 <body>
     <main>
-        <section>
-            <div class="img">
+        <section class="area_login">
+            <div class="imagem">
                 
             </div>
             
             <div class="login">
                 <h1>Cadastre-se Aqui!</h1>
+                <p class="textoCadastro">Relalize seu cadastro para poder acessar ambientes internos da sua conta!</p>
+
+                <form action="cadastro.php" method="post">
+                    <div class="campos" id="nomes">
+                        <label for="inome"></label>
+                        <input type="text" name="nome" id="inome" placeholder="Nome:" required>
+                    </div>
+                    <div class="campos" id="nomes">    
+                        <label for="isobrenome"></label>
+                        <input type="text" name="sobrenome" id="isobrenome" placeholder="Sobrenome:" required>
+                    </div>
+                    <div class="campos" id="emails">
+                        <label for="iemail"></label>
+                        <input type="email" name="nemail" id="iemaul" placeholder="Email:" maxlength="30" required>
+                    </div>
+                    <div class="campos" id="senhas">
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha:" min="6" max="10" required>
+                    </div>
+                     <input type="submit" value="Enviar">
+                </form>
+                <p class="esqueciSenha"><a href="">Esqueci minha Senha</a></p>
             </div>
-            
         </section>
     </main>
 </body>

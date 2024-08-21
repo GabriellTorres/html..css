@@ -3,6 +3,8 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 body{
     height: 100vh;
@@ -15,7 +17,6 @@ body{
 }
 
 main{
-    background-color: white;
     height: 500px;
     width: 280px;
     border: 3px rgba(0, 0, 0, 0.705) solid;
@@ -23,10 +24,71 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
 }
 
-section{
-    display: flex;
+
+div.imagem{
+    background: white url(../imagem/pexels-edward-jenner-4252526.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 180px;
 }
-.img{
-    background: url(../imagem/pexels-edward-jenner-4252526.jpg);
-    
+
+div.login{
+    background-color: white;
+    height: 314px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: block;
+    padding: 10px;
+}
+
+div.login > h1{
+    text-align: center;
+    padding: 5px;
+}
+
+div.login > p{
+    font-size: 1em;
+    padding: 0px 10px 0px 10px;
+}
+
+.textoCadastro{
+    text-align: justify;
+}
+
+div.login > p > a{
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: rgb(31, 107, 206);
+    padding: 10px;
+}
+
+.esqueciSenha{
+    text-align: center;
+}
+
+form > div.campos{
+    padding: 2px;  
+    text-align: center;
+}
+
+form > input[type = submit]{
+    display: block;
+    border: none;
+    background-color: chocolate;
+    width: 100%;
+    margin-top: 3px;
+}
+
+form > input[type = submit]:hover{
+    background-color: rgb(31, 107, 206);
+}
+input{
+    width: 100%;
+    border: 2px solid rgb(31, 107, 206);
+    border-radius: 6px;
+    padding: 4px;
+
 }
