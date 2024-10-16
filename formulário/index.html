@@ -18,30 +18,30 @@
 
             <section id="formularios">
                 <form action="forms.php">
-                    <div>
+                    <div class="input" id="name">
                         <input type="text" name="nome" id="inome" placeholder="nome" autocomple="on" required>
                     </div>
-                    <div>
+                    <div class="input" id="sobrename">
                         <input type="text" name="sobrenome" id="isobrenome"
                         placeholder="sobrenome" autocomple="on" required>
                     </div>
-                    <div>
+                    <div class="input" id="tell">
                         <input type="tel" name="telefone" id="itelefone"
                         placeholder="(xx) xxxx-xxxx"
                         pattern="^\d{2}\d{4,5}-\d{4}$">
                     </div>
-                    <div>
+                    <div class="input" id="senha">
                         <input type="password" name="senha" id="isenha"
                         placeholder="senha"
                         minlength="6"
                         maxlength="10"
                         required>
                     </div>
-                    <div>
+                    <div class="input" id="email">
                         <input type="email" name="emaill" id="imaill"
                         placeholder="email" required>
                     </div>
-                    <input type="submit" value="enviar">
+                    <input type="submit" value="enviar" class="input" id="enviar">
                 </form>
 
             </section>
