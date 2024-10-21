@@ -32,6 +32,7 @@ div#ladoFormulario > p{
 form{
     display: flex;
     flex-flow: column nowrap;
+    justify-content: space-between;
     padding: 20px 20px 0px 20px;
     gap: 20px;
 }
