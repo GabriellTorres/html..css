@@ -49,13 +49,14 @@
         flex: auto;
         
     }
-    div#ladoFormulario > p{
-        max-width: 439px;
+    div#ladoFormulario > p{ 
+        max-width: none;
         text-align: justify;
     }
     form > input[type=submit]{
         align-self: flex-end;
     }
+    
     
 }
 @media screen and (min-width: 800px) and (max-width:1075px) {
@@ -65,5 +66,14 @@
     form > input[type=submit]{
         align-self: flex-start;
     }
+    div.caixasForm > input{
+        min-width: 300px;
+        flex-grow: 1;
+    }
+    div#ladoFormulario > p{
+        max-width: 340px;
+    }
+    
 }
+
 
